@@ -20,5 +20,5 @@ function greet(string) {
 
 function displayMessage(string) {
   let id = document.querySelector('#greeting')
-  id.innerHTML = `${string}`
+  id.innerText = string
 }
