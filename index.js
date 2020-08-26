@@ -25,5 +25,5 @@ function greet(string) {
 }
 
 function displayMessage(string) {
-  let grt = document.getElementById('greeting').innerText = string
+  document.getElementById('greeting').innerText = string
 }
