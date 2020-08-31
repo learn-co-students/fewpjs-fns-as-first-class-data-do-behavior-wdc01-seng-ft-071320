@@ -26,7 +26,7 @@ function greet(timeString){
 
 }
 
-function displayMessage(str){
-  const greeting = documnet.getElementById('greeting');
-  greeting.innerText = str;
+function displayMessage(timeString){
+  const greeting = document.getElementById('greeting');
+  greeting.innerText = timeString;
 }
